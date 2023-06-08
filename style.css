@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;700&display=swap');
+
+*{
+    font-family: 'Unbounded', cursive;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#466b82,#7AACBF, #F2B077, #A6554E);
+}
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px, 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    
+    color: azure;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 20px;
+}
+.hed-link{
+    padding: 20px;
+}
+
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+header ul li a{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 30px, 60px;
+    color: azure;
+    border-radius: 20px;
+}
+header ul li a:hover, header ul li a.active{
+    background: azure;
+    color: #466b82;
+}
+.zagolovok{
+    
+    font-weight: 600;
+    text-align: center; 
+}
+.page_content{
+    margin-left: 60px;
+    margin-right: 60px;
+    color: azure;
+}
+
+.card{
+    margin-left: 100px;
+}
+
+.fa {
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-instagram {
+    background: #3B5998;
+    color: white;
+  }
+  
+ 
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
